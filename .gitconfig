@@ -1,16 +1,19 @@
 [color]
-  diff = true
-  status = true
-  branch = true
-  interactive = true
-  ui = true
-  pager = true
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = true
+    pager = true
 
 [color "status"]
-  added = green
-  changed = red bold
-  untracked = magenta bold
+    added = green
+    changed = red bold
+    untracked = magenta bold
 
 [color "branch"]
-  branch = yellow bold
-  remote = yellow
+    branch = yellow bold
+    remote = yellow
+
+[alias]
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit
