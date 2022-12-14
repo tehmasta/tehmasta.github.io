@@ -1,0 +1,16 @@
+[color]
+  diff = true
+  status = true
+  branch = true
+  interactive = true
+  ui = true
+  pager = true
+
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+
+[color "branch"]
+  branch = yellow bold
+  remote = yellow
